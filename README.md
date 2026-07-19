@@ -11,9 +11,7 @@ orders with customers, regions, categories, products, and sales figures.
 
 ## Demo video
 
-[Add your demo video link here — e.g. a YouTube/Drive link, or drag the
-video file directly into the GitHub README editor and it'll generate an
-embeddable link automatically.]
+(https://drive.google.com/file/d/1RTWVKGCf8EHZLqDT7umEp8AnSTyWfSGw/view?usp=sharing)
 
 ## What's inside
 
