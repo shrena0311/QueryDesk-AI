@@ -1,0 +1,36 @@
+<svg width="680" height="520" viewBox="0 0 680 520" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5f5e5a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="680" height="520" fill="#ffffff"/>
+
+<rect x="230" y="40" width="220" height="56" rx="8" fill="#f1efe8" stroke="#888780" stroke-width="0.5"/>
+<text x="340" y="60" text-anchor="middle" font-size="14" font-weight="600" fill="#2c2c2a">User asks a question</text>
+<text x="340" y="78" text-anchor="middle" font-size="12" fill="#5f5e5a">Typed into the chat box</text>
+<line x1="340" y1="96" x2="340" y2="132" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="230" y="136" width="220" height="56" rx="8" fill="#eeedfe" stroke="#7f77dd" stroke-width="0.5"/>
+<text x="340" y="156" text-anchor="middle" font-size="14" font-weight="600" fill="#26215c">Generate SQL</text>
+<text x="340" y="174" text-anchor="middle" font-size="12" fill="#3c3489">LLM writes a SELECT query</text>
+<line x1="340" y1="192" x2="340" y2="228" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="230" y="232" width="220" height="56" rx="8" fill="#e1f5ee" stroke="#1d9e75" stroke-width="0.5"/>
+<text x="340" y="252" text-anchor="middle" font-size="14" font-weight="600" fill="#04342c">Run the query</text>
+<text x="340" y="270" text-anchor="middle" font-size="12" fill="#085041">Executes against SQLite</text>
+
+<path d="M450,260 L520,260 L520,164 L450,164" fill="none" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="530" y="212" font-size="12" fill="#5f5e5a">Retry on</text>
+<text x="530" y="228" font-size="12" fill="#5f5e5a">error (x2)</text>
+
+<line x1="340" y1="288" x2="340" y2="324" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="356" y="310" font-size="12" fill="#5f5e5a">succeeds</text>
+
+<rect x="230" y="328" width="220" height="56" rx="8" fill="#eeedfe" stroke="#7f77dd" stroke-width="0.5"/>
+<text x="340" y="348" text-anchor="middle" font-size="14" font-weight="600" fill="#26215c">Explain the result</text>
+<text x="340" y="366" text-anchor="middle" font-size="12" fill="#3c3489">Turns rows into a sentence</text>
+<line x1="340" y1="384" x2="340" y2="420" stroke="#5f5e5a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="230" y="424" width="220" height="56" rx="8" fill="#f1efe8" stroke="#888780" stroke-width="0.5"/>
+<text x="340" y="444" text-anchor="middle" font-size="14" font-weight="600" fill="#2c2c2a">Answer appears in UI</text>
+<text x="340" y="462" text-anchor="middle" font-size="12" fill="#5f5e5a">Shown as a receipt card</text>
+</svg>
